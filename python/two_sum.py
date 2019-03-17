@@ -1,3 +1,10 @@
+"""Dynamic Programming
+
+Idea: Remember what values we need to find i.e. (target - values[i]) for all i such that 0 <= i < n
+
+Time - O(n)
+Space - O(n)
+"""
 class Solution:
     def twoSum(self, nums, target):
         """
