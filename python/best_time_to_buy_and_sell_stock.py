@@ -1,3 +1,11 @@
+"""Dynamic Programming
+
+Idea: Remember the smallest value we have seen and compute the
+max profit (sell - buy) for every pair with the smallest we've seen so far.
+
+Time - O(n)
+Space - O(1)
+"""
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         max_profit = 0
